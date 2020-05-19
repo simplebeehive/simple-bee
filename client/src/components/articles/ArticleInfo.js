@@ -2,8 +2,7 @@ import { Link } from 'react-router-dom';
 import { Query, Mutation } from 'react-apollo';
 import { GET_ARTICLE, DELETE_ARTICLE, GET_ARTICLES } from '../../graphql/articleQueries';
 import React from "react";
-//import { ButtonComponent } from '@syncfusion/ej2-react-buttons';
-import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import {LineChart, Line, XAxis, YAxis, CartesianGrid } from 'recharts';
 
 function ArticleInfo(props) {
   return (

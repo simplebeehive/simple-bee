@@ -2,8 +2,6 @@ import { Link } from 'react-router-dom';
 import { Mutation } from 'react-apollo';
 import { CREATE_ARTICLE, GET_ARTICLES } from '../../graphql/articleQueries'; 
 import React from "react";
-//import  ButtonComponent } from '@syncfusion/ej2-react-buttons';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 function ArticleAdd(props) {
   let title, content;
