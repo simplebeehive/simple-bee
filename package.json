@@ -16,7 +16,7 @@
     "apollo-server": "^2.8.1",
     "graphql": "^14.4.2",
     "mongoose": "^5.6.6",
-    "recharts": "^1.8.5"
+    "recharts": "^2.1.14"
   },
   "devDependencies": {
     "concurrently": "^4.1.1",
